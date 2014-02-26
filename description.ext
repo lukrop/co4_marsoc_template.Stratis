@@ -1,0 +1,47 @@
+/*
+	File: description.ext
+	Author: lukrop
+
+	License: see LICENSE.txt
+	Description:
+	Mission description file
+
+	Parameter(s):
+	-
+
+	Returns:
+	-
+*/
+
+respawn = 4;
+//respawndelay = 10;
+//respawndialog = 0;
+//disabledAI = true;
+enableDebugConsole = 1;
+//allowFunctionsLog = 1;
+
+author="lukrop";
+onLoadName = "MARSOC template";
+onLoadMission = "Rockem sockem robots!<br/>Version: 0.1";
+//loadScreen = "loadingscreen.jpg";
+
+
+class Header
+{
+	gameType=Coop;
+	minPlayers=1;
+	maxPlayers=4;
+};
+
+class CfgFunctions
+{
+	#include "VAS\cfgfunctions.hpp"
+	#include "taw_vd\CfgFunctions.hpp"
+	#include "f\CfgFunctions.hpp"
+	#include "lkr\CfgFunctions.hpp"
+};
+
+#include "VAS\menu.hpp"
+#include "taw_vd\dialog.hpp"
+
+#include "parameters.hpp"
