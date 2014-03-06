@@ -35,11 +35,12 @@ class lkr
 		class moveInRandomHouse {};
 	};
 
-	class gc
-	{
+	class gc {
 		file = "lkr\gc";
 
-		class gcInit {postInit=1}; // starts the garbage collector
+		class gcInit {
+			postInit=1; // starts the garbage collector
+		};
 		class gcMonitor {};
 		class gcAdd {};
 		class gcEmptyQueue {};

@@ -7,8 +7,8 @@
 */
 //if(!isMultiplayer) exitWith {};
 tawvd_foot = 1300;
-tawvd_car = 2000;
-tawvd_air = 3000;
+tawvd_car = 1600;
+tawvd_air = 1600;
 tawvd_addon_disable = true;
 //The hacky method... Apparently if you stall (sleep or waitUntil) with CfgFunctions you stall the mission initialization process... Good job BIS, why wouldn't you spawn it via preInit or postInit?
 objNull spawn

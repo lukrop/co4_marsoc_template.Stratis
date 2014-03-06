@@ -42,7 +42,7 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={2631.2432,65.392632,615.40137};
+					position[]={2617.8228,64.174355,607.7417};
 					id=0;
 					side="WEST";
 					vehicle="B_mas_mar_Soldier_TL_F_g";
@@ -55,7 +55,7 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={2634.2432,65.491562,610.40137};
+					position[]={2620.8228,64.129326,602.7417};
 					id=1;
 					side="WEST";
 					vehicle="B_mas_mar_soldier_AR_F_g";
@@ -67,7 +67,7 @@ class Mission
 				};
 				class Item2
 				{
-					position[]={2636.2432,65.646095,610.40137};
+					position[]={2622.8228,64.423035,602.7417};
 					id=2;
 					side="WEST";
 					vehicle="B_mas_mar_soldier_exp_F_g";
@@ -79,7 +79,7 @@ class Mission
 				};
 				class Item3
 				{
-					position[]={2638.2432,65.746597,610.40137};
+					position[]={2624.8228,64.54966,602.7417};
 					id=3;
 					side="WEST";
 					vehicle="B_mas_mar_medic_F_g";
@@ -97,7 +97,7 @@ class Mission
 		items=1;
 		class Item0
 		{
-			position[]={2634.4756,65.71743,621.00342};
+			position[]={2621.0552,64.312866,613.34375};
 			id=4;
 			side="EMPTY";
 			vehicle="Land_Pallet_MilBoxes_F";
@@ -110,7 +110,7 @@ class Mission
 		items=1;
 		class Item0
 		{
-			position[]={2634.9263,65.715202,615.57275};
+			position[]={2621.5059,64.354691,607.91309};
 			name="start";
 			text="Start";
 			type="mil_start";
